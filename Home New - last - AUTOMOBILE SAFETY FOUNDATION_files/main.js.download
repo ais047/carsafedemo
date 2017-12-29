@@ -1,0 +1,3 @@
+jQuery(document).ready(function($){
+	$(".section-letter a").fancybox();
+});

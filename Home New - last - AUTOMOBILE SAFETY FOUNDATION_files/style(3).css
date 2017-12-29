@@ -1,0 +1,87 @@
+/*
+Theme Name: Bridge_Child_2_No_Page_Titles
+Theme URI: http://demo.qodeinteractive.com/bridge/
+Description: A child theme of Bridge Theme
+Author: Qode Interactive
+Author URI: http://www.qodethemes.com/
+Version: 1.0.0
+Template: bridge
+*/
+@import url("../bridge/style.css");
+
+
+.qode_video_box .qode_video_image .qode_video_box_button{background-color: #0000ff;}
+.qode_video_box .qode_video_image:hover .qode_video_box_button,
+.qode_video_box .qode_video_image .qode_video_box_button:hover,
+.qode_video_box .qode_video_image .qode_video_box_button:focus,
+.qode_video_box .qode_video_image .qode_video_box_button:active{background-color: #023368;}
+nav.main_menu>ul>li.active>a>span:not(.plus){background-color: #0000ff;color: #fff;}
+.content a{color: #0088cc;}
+.content a.qbutton{color: #fff;}
+.content a.qbutton.white{color: #333333;}
+.content p{margin-bottom:15px;}
+
+@media (min-width: 768px) {
+	.q_logo img{max-width: 350px;}
+	nav.main_menu > ul > li > a{font-size: 13px;}
+}
+@media (max-width: 420px) {
+	.q_logo .mobile{height: auto !important;max-width: 250px;margin-left: 50px !important;margin-top: 10px !important;}
+}
+
+
+#three-box-home .vc_col-sm-4 .wpb_wrapper{padding: 10px;background-color: #eee;min-height: 265px;}
+#three-box-home .vc_col-sm-4:first-child .wpb_wrapper{min-height: 210px;}
+#three-box-home .vc_col-sm-4 .wpb_wrapper h3{font-size: 24px;line-height: 1.2;}
+@media(max-width: 768px) {
+	#three-box-home .vc_col-sm-4 .wpb_wrapper{margin-bottom: 20px;}
+}
+
+.home .qode-banner-image{max-height: 350px;overflow: hidden;}
+.home .qode-banner-content{opacity: 1 !important;}
+.home .home-info-banner h3{color: #023368 !important;font-size: 35px;line-height: 70px;}
+.home .home-info-banner p{font-size: 25px;}
+.home .links{list-style: none; text-align: center;}
+.home .links li{display: inline-block; margin: 10px;}
+.q_icon_with_title .icon_with_title_link{margin-top: 0;}
+
+@media (max-width: 768px) {
+	.home #qode-home-slider{height: auto !important;}
+	.home .q_slider .content_vertical_middle {padding-top: 0 !important;height: auto !important;}
+	.home .q_slider .image {background-image: none !important;position: inherit !important;top: auto !important;left: auto !important;height: auto !important;}
+	.home .q_slider .image img{display: block !important;width: 100% !important;height: auto !important;}
+	.home .q_slider .slider_content_outer{display: none !important;}
+}
+
+/* additional tweaks by Austin Themes */
+
+/*.vc_col-sm-12 .wpb_wrapper .vc_single_image-wrapper img.vc_single_image-img{margin-top:30px;margin-bottom:40px;}*/
+.vc_col-sm-12 .wpb_wrapper .vc_single_image-wrapper img.vc_single_image-img{margin-top:30px;margin-bottom:15px;}
+#hp-3panerow-videos h3{text-align:center;}
+
+/* hugo bulmes tweaks */
+.header_bottom{padding: 0 10px;} /*Fixing the menu */
+nav.main_menu > ul > li.active > a > span:not(.plus){background-color:white; color:#0000ff;}
+
+/*hugo bulnes fixes8/
+.newsImgFix img{
+	margin:0;
+}
+
+.aboutHB{ padding-left:20%; padding-right:20%;}
+
+/*fix margins in social media area*/
+@media only screen and (max-width:1200px){
+	.container_inner{
+		width: 100%;
+	}
+
+	.header_top .left{
+		margin-left:10px;
+	}
+
+	.header_top .right{
+		margin-right:10px;
+	}
+	.warning > p, .attention > p{ color:white; font-size:12pt; font-weight:900; margin:0 !important;}
+}
